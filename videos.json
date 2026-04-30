@@ -1,8 +1,8 @@
 {
   "videos": [
-    { "id": "v1", "media": "https://media.slicedrive.com/QPXo4CF91.mp4" },
-    { "id": "v2", "media": "https://media.slicedrive.com/zWtrMmX11.mp4" },
-    { "id": "v3", "media": "https://media.slicedrive.com/tT4vnZav1.mp4" },
-    { "id": "v4", "media": "https://media.slicedrive.com/bbRW3UQ11.mp4" }
+    { "id": "v1", "cdn": "https://media.slicedrive.com/QPXo4CF91.mp4" },
+    { "id": "v2", "cdn": "https://media.slicedrive.com/zWtrMmX11.mp4" },
+    { "id": "v3", "cdn": "https://media.slicedrive.com/tT4vnZav1.mp4" },
+    { "id": "v4", "cdn": "https://media.slicedrive.com/bbRW3UQ11.mp4" }
   ]
 }
