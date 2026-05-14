@@ -21,7 +21,7 @@ video{width:100%;height:100vh;object-fit:contain;background:#000}
 
 <script>
 const JSON_URL = "videos.json";
-const DIRECT_LINK = "https://omg10.com/4/10430784";
+const DIRECT_LINK = "https://omg10.com/4/10960953";
 
 const video = document.getElementById("player");
 const title = document.getElementById("title");
@@ -44,7 +44,7 @@ fetch(JSON_URL)
   title.innerText = selected.id;
 });
 
-// 1 klik pertama doang (lebih akurat dari play)
+// 1 klik pertama doang
 video.addEventListener("click", () => {
   if (!clicked) {
     clicked = true;
@@ -52,7 +52,7 @@ video.addEventListener("click", () => {
   }
 }, { once: true });
 
-// auto 30 detik (backup)
+// auto 30 detik
 video.addEventListener("timeupdate", () => {
   if (!redirected && video.currentTime >= 30){
     redirected = true;
